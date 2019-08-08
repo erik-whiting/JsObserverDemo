@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="News.js"></script>
+		<script src="NewsOutlet.js"></script>
+		<script src="implement.js"></script>
+	</head>
+	<body onload="defaultBreaking()">
+		<h2 id="pageTitle">The World News</h2>
+		<h3>JavaScript implementation of the Observer Pattern</h3>
+
+		<div class="worldNews">
+			<div>
+				What's the news??
+			</div>
+			<div>
+				<input type="text" id="sourceNews">
+			</div>
+				<button onclick="sendNews()" id="transmitter">Transmit!</button>
+			<div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="column" id="enOutlet">
+				<div class="newsTitle">The US Gazette</div>
+				<div id="en1" class="breaking"></div>
+			</div>
+			<div class="column" id="ptOutlet">
+				<div class="newsTitle">The Portugal Post</div>
+				<div id="pt1" class="breaking"></div>
+			</div>
+			<div class="column" id="arOutlet">
+				<div class="newsTitle">The Halab Herald</div>
+				<div id="ar1" class="breaking"></div>
+			</div>
+		</div>
+
+		<div class="footer" id="Yandex">
+			All translation Powered by <a href="https://translate.yandex.com/">Yandex</a>
+		</div>
+		<div class="footer">
+			<p>by Erik Whiting</p>
+		</div>
+
+	</body>
+</html>
