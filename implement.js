@@ -2,7 +2,6 @@ let news = new News;
 let enOutlet = new NewsOutlet("en");
 let ptOutlet = new NewsOutlet("pt");
 let arOutlet = new NewsOutlet("ar");
-let newsElements = [];
 
 news.addSubscriber(enOutlet);
 news.addSubscriber(ptOutlet);
