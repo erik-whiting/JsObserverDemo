@@ -1,4 +1,5 @@
 # JsObserverDemo
+See the article explaining this code and the observer pattern in general here: https://dev.to/erikwhiting88/observer-design-pattern-tutorial-in-javascript-fun-with-a-language-api-21o3
 
 See this repository live at http://erikwhiting.com/newsOutlet/
 
